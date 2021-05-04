@@ -1,0 +1,464 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+
+
+  <link rel="shortcut icon" type="image/png" href="img/icon/favicon.png">
+  <link rel="stylesheet" href="BeerSlider.css">
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="BeerSlider.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="main.js"></script>
+
+
+
+
+  <title>COO Rides -FAQ</title>
+</head>
+
+<body>
+  <div class="container-fluide ">
+    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo/ic-menu-logo.png" srcset="img/logo/ic-menu-logo@2x.png 2x,img/logo/ic-menu-logo@3x.png 3x">
+        <h4 class="brand-name">COO <span class="font-weight-light"> RIDES</span> </h4>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#station-location">Find our Stations</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#download">Download</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </nav> -->
+
+    <nav class=" navbar navbar-expand-md navbar-light bg-light sticky-top" id="navbar-example2">
+
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo/ic-menu-logo.png" srcset="img/logo/ic-menu-logo@2x.png 2x,img/logo/ic-menu-logo@3x.png 3x">
+                <h4 class="brand-name">COO <span class="font-weight-light"> RIDES </span></h4>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html#station-location">Find our Station</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html#download">Download</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+
+          </nav>
+    <section class=" w-100">
+      <!-- <div class="text-light top-h1 pl-5 pt-10"><span class="f-w">More</span>  About Us</div> -->
+      <div class="d-flex align-items-center">
+        <img src="img/background/h_orange.png" class="img-fluid w-100">
+        <div class="title pl-md-5 pl-2 head"><span class="f-w">Queries</span> & Contact Us</div>
+        <!-- <h2 class="d-none d-md-block d-lg-none"><span class="f-w">More</span> About Us</h2> -->
+      </div>
+
+    </section>
+    <section>
+      <div>
+        <div class="text-center para-h1">Frequently Asked <span class="font-weight-bold">Questions</span></div>
+        <!-- <p class="loose-txt text-center f-20 pt-2">Users will have to pay a nominal membership fee of INR 250 per month to gain access to the system. Once registered, the users will be charged as follows:</p> -->
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active text-grey f-18" href="#general">GENERAL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-grey f-18" href="#coo">USING COO RIDES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-grey f-18" href="#support">SUPPORT</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+    <section class="w-100" id="general">
+      <div class="row pl-3">
+        <div class="col-sm-12">
+          <h1 class="pt-2 f-w"><ins>General</ins></h1>
+          <p class="loose-txt para  pt-2 text-success">What is Coo Rides?</p>
+          <p class="loose-txt para">Coo Rides is an intelligent, multi modal personal commute platform that is solving
+            the short distance connectivity problem in cities. Coo Rides uses a patented smart dock system and a
+            smartphone app to provide convenient access to bicycles, electric bicycles, electric Scooters and electric
+            Rickshaw rides when and where you need it the most.
+          </p>
+          <p class="loose-txt para  pt-2 text-success">What isCan I use Cash to use Coo Rides?</p>
+          <p class="loose-txt para">No, you cannot use cash to use Coo Rides. You will need to download the Coo Rides
+            App through the App Store or Play store and register with a PAN card or any other government ID card. You
+            will have to register for a membership using your Credit Card, Debit Card or digital payment systems like
+            UPI or net banking.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="w-100" id="coo">
+      <div class="row pl-3">
+        <div class="col-sm-12">
+          <h1 class="pt-2 f-w"><ins>Using Coo Rides </ins></h1>
+          <p class="loose-txt para  pt-2 text-success"> How to register with Coo Rides?</p>
+          <p class="loose-txt para ">Once you've downloaded the Coo Rides app, you will need to create a personal Coo
+            Rides Account. All you need is a local phone number to receive an OTP via SMS to register. If you are having
+            trouble in receiving the OTP via SMS, click “Resend OTP” on the verification page.
+          </p>
+          <p class="loose-txt para">After the OTP verification, you have to complete your profile on the Coo Rides app
+            by entering your personal details and uploading a government approved identity card with your address.
+            (Note: Coo Rides does not accept Pan Cards or Employee IDs for KYC). </p>
+
+          <p class="loose-txt para  pt-2 text-success">How long does the KYC verification take?</p>
+          <p class="loose-txt para ">If AADHAAR card is uploaded, the profile is activated within 30 minutes, for all
+            other IDs activation will take upto 24 hours. Please note that if the document uploaded is blurred or is not
+            an approved government identity card, you will be asked to upload the KYC document once again with a clear
+            image. In case your account is not activated within 24 hours please call our call center for assistance
+          </p>
+          <p class="loose-txt para  pt-2 text-success">How do I find the nearest Coo Rides station available?</p>
+          <p class="loose-txt para  ">When you open the Coo Rides app, navigate to Home on the menu tab and you shall
+            see the map page. In the map you should be able to see the Coo Rides stations located near your location. If
+            you cannot see your location pin, press the location pointer button on the right side of the screen that
+            will recalibrate your location. Make sure that you have enabled location access and have active data on your
+            phone to allow for this functionality.
+          </p>
+          <p class="loose-txt para  pt-2 text-success">How to unlock a Bike?</p>
+          <p class="loose-txt para">Walk over to any of the Coo Rides stations across the city. Scan the QR code on the
+            back of a bike and allow bluetooth to connect with the bike’s smart dock. You should hear a buzzer notifying
+            that the bike has unlocked. Firmly pull out the bike from the dock and start your ride.
+          </p>
+          <p class="loose-txt para  pt-2 text-success">How to end the ride?</p>
+          <p class="loose-txt para">Coo Rides has designated docking stations throughout the city. To end your ride you
+            will have to approach a nearby station to drop the bike. Align the smart dock on the bike and the metal
+            plate on the station and push the bike in completely, hold the bike in the same position until you hear a
+            beep from the bicycle smart lock. Once you hear the beep your ride has ended.
+          </p>
+
+          <p class="loose-txt para  pt-2 text-success">How do I pay for my rides?</p>
+          <p class="loose-txt para">Before you can ride, you will need to maintain a usage balance in your account.
+            Depending on your location you may use a credit card, debit card or even wallets. In the Coo app, under the
+            main menu select “Payments” to find your existing balance. You can topup your balance by selecting the “Add
+            money” option
+          </p>
+          <p class="loose-txt para ">You may check your account balance in your profile at any time. In the Coo app,
+            under the main menu select “Payments” to find your existing balance.</p>
+
+          <p class="loose-txt para  pt-2 text-success">How do I top up my wallet?</p>
+          <p class="loose-txt para">In the Coo app, under the main menu select “Payments” to find your existing balance.
+            You can topup your balance by selecting the “Add money” option. You cannot directly withdraw the balance
+            from your wallet, but don’t worry, it will never expire, so you can use it anytime with Coo Rides.</p>
+
+          <p class="loose-txt para  pt-2 text-success">What if I don’t find space to dock the bike?</p>
+          <p class="loose-txt para">The moment you take the bike from the station, the Coo app shows the count of the
+            number of free docks at each of the stations on the map, please make sure beforehand that the station you
+            are heading to has enough number of free dock points. Please note that the bike is your responsibility until
+            the bike is safely docked into one of the Coo Rides docking stations.
+          </p>
+          <p class="loose-txt para  pt-2 text-success">What if my bike breaks down? </p>
+          <p class="loose-txt para">Please proceed to one of the nearest Coo Rides stations and dock the bike into one
+            of the docks, end your ride and if you would like to continue your ride please choose another bike at the
+            station and follow the unlock instructions. 
+          </p>
+          <p class="loose-txt para">If you are having any further issues, please Call us for Contact Us.</p>
+
+          <p class="loose-txt para  pt-2 text-success">What if my Bike gets Lost/Stolen? </p>
+          <p class="loose-txt para">If you find that you have lost your bike or suspect that it has been stolen, please
+            call us immediately. Please note that the bike is your responsibility until the ride has ended. Penalties
+            shall be applicable if misuse has been detected.
+          </p>
+        </div>
+      </div>
+
+    </section>
+    <section class="" id="support">
+      <div class="row pl-3">
+        <div class="col-sm-12">
+          <h1 class="pt-2 f-w"><ins>Contact Us</ins></h1>
+          <p class="loose-txt para  pt-2 text-success">How long do refunds take to reflect in my account?</p>
+          <p class="loose-txt para">Depending on your payment method, it may take upto 7 working days for the refund
+            process to be fully completed. If you have any concerns please contact your support team on <a
+              href="support@coorides.in">support@coorides.in</a> 
+          </p>
+
+          <p class="loose-txt para  pt-2 text-success">What do I do if I have negative balance in my account?</p>
+          <p class="loose-txt para">If your wallet has a negative balance, you will not be able to unlock a Coo Rides
+            Bike. Simply top-up your account to a positive balance to enable use of your account. Navigate to Payments
+            tab in Menu list and select add money.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="w-100">
+
+      <footer class="page-footer font-small bg-footer pt-4 ">
+        <div class="row">
+          <div class="col-md-2 d-none d-md-block">
+            <a class="navbar-brand pt-2 ml-4 pl-1" href="#">
+              <img src="img/icon/512-x-512-bb.png">
+              <p class="brand-name">COO <span class="font-weight-light"> RIDES </span> </p>
+            </a>
+          </div>
+        </div>
+        <div class="container-fluid text-center text-md-left">
+
+          <div class="row">
+
+            <div class="col-md-6 mt-md-0 mt-3 ">
+
+              <h4 class="text-light ml-3 f-24 mt-2 "><span class=" f-w">We would love</span> <span
+                  class="font-weight-bold f-style">to hear from
+                  you!</span></h4>
+              <h4 class="text-light ml-3 f-24 f-style">Join us or let’s have a talk.</h4>
+
+              <div class="row">
+                <div class="col-lg-6 text-md-left text-center">
+
+                  <ul class="list-group ml-3 mt-3">
+
+                    <li class=" d-flex justify-content-center justify-content-md-start">
+                      <span class=" f-16 text-orange addr">support@coorides.in<p>+918448449690 </p>
+                      </span>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-lg-6 text-md-left text-center">
+                  <ul class="list-group ml-3 mt-3">
+                    <li class=" d-flex justify-content-between align-items-center">
+                      <span class="text-orange f-16 addr">1st Floor, Pritham Plaza,No. 18 ,Yellamman Koil Street,
+                        Adj to Gurudwara, Ulsoor, Bengaluru, Karnataka 560008</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-5">
+            <div class="col-md-3 mb-md-0 mb-3 mt-2 footer-list">
+              <h5 class="text-white text-uppercase f-12 mt-4 text-op">General</h5>
+
+              <ul class="list-group f-14 text-orange mt-4">
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="index.html">Home</a>
+                  <span><a href="faq.html" class="f-14 text orange p-r-6">FAQs</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange ">
+                  <a href="about-us.html">About Us</a>
+                  <span><a href="safety-instruction.html" class="f-14 text orange">Safety Instructions</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="pricing.html">Pricing</a>
+                  <span><a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank"
+                      class="f-14 text orange p-r-6">Youtube</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="contact.html">Contact Us</a>
+
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3 mt-2 footer-list">
+              <h5 class="text-uppercase text-white f-12 mt-4 text-op">Legal</h5>
+
+              <ul class="list-group f-14 text-orange mt-4">
+                <li class=" d-flex align-items-left text-orange">
+                  <a href="privacy-policy.html"> Privacy Policy</a>
+                </li>
+                <li class=" d-flex  align-items-left text-orange">
+                  <a href="terms-condition.html">Terms & Conditions</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-6  mt-2 p-0">
+              <img src="img/background/intro-illustration.png" srcset="img/background/intro-illustration@2x.png 2x,
+                 img/background/intro-illustration@3x.png 3x" class="Intro_Illustration rotate-180">
+            </div>
+            <div class="col-md-3  mb-3 mt-2 p-l-none">
+
+              <div class="d-flex d-flex-row mb-3 mt-2">
+
+
+                <div class="col-md-3 ">
+                  <a href="https://www.instagram.com/cooridesin/" target="_blank">
+                    <img src="img/footer/insta@3x.png" srcset="img/footer/insta@2x.png 2x,
+                     img/footer/insta@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+                <div class="col-md-3 ">
+                  <a href="https://www.facebook.com/cooridesin/" target="_blank">
+                    <img src="img/footer/shape@3x.png" srcset="img/footer/shape@2x.png 2x,
+                     img/footer/shape@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="https://www.linkedin.com/company/cooridesin/" target="_blank">
+                    <img src="img/footer/link@3x.png" srcset="img/footer/link@2x.png 2x,
+                       img/footer/link@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank">
+                    <img src="img/footer/youtube.png" class="footer-icon">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3  mb-3 mt-2"></div>
+
+
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3 bg-copyright  f-style text-white">Copyright 2020 © <a href="http://www.praxsys.com/"> Parxsys Moblit
+          Systems Pvt Ltd</a>
+        </div>
+      </footer>
+    </section>
+  </div>
+
+
+
+  <!-- <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="bg-slate-black modal-dialog menu-full-width" role="document">
+      <nav class="navbar-brand d-flex justify-content-between align-items-center">
+        <a class="navbar-brand pt-2 ml-4" href="#">
+          <img src="img/icon/512-x-512-bb.png">
+          <h4 class="brand-name">COO <span class="font-weight-light"> RIDES </span></h4>
+        </a>
+        <span class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/icon/menu-close.png" srcset="img/icon/menu-close@2x.png 2x,
+                       img/icon/menu-close@3x.png 3x" class="menu_close"> </span>
+
+
+      </nav>
+      <div class="row">
+        <div class="col-md-4 mt-md-0 mt-3">
+          <ul class="list-group menu-list">
+            <li class="list-group-item"><a href="#station-location" class="menu-p mt-2">Find Station</a></li>
+            <li class="list-group-item"> <a href="#download" class="menu-p m-t-4">Download</a></li>
+            <li class="list-group-item d-md-none"> <a href="about-us.html" class="menu-p  m-t-4 ">About</a>
+            </li>
+            <li class="list-group-item d-md-none"> <a href="#contact" class="menu-p  m-t-4">Contact</a></li>
+
+        </div>
+        <div>
+
+          <div class="d-flex flex-row justify-content-center pl-5 ">
+            <div class="mt-10 t-design">“The next big thing in mobility”</div>
+
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="f-14 pl-5">-TIMES Magazine</div>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <img src="img/background/intro-illustration.png" srcset="img/background/intro-illustration@2x.png 2x,
+                         img/background/intro-illustration@3x.png 3x" class="Intro_Illustration">
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="progress-line d-none d-md-block Path-4">
+        <div></div>
+      </div>
+      <footer class="page-footer">
+
+
+        <div class="row">
+
+
+          <div class="col-md-12">
+            <div class="d-flex d-flex-row justify-content-center p-b-2 p-t-2">
+
+              <span class="">
+                <a href="https://www.instagram.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-instagram.png" srcset="img/footer/menu-instagram@2x.png 2x,
+                            img/footer/menu-instagram@3x.png 3x" class="menu_icon">
+                </a>
+              </span>
+              <span class="icon-pl-1">
+                <a href="https://www.facebook.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-facebook.png" srcset="img/footer/menu-facebook@2x.png 2x,
+                              img/footer/menu-facebook@3x.png 3x" class="menu_icon"></a>
+              </span>
+
+              <span class="icon-pl-1">
+                <a href="https://www.linkedin.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-linkedin.png" srcset="img/footer/menu-linkedin@2x.png 2x,
+                              img/footer/menu-linkedin@3x.png 3x" class="menu_icon"></a>
+              </span>
+              <span class="icon-pl-1">
+                <a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank">
+                  <img src="img/footer/utube.png" class="menu_icon"></a>
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="footer-copyright text-center py-3 bg-copyright  f-style text-white">Copyright 2019 © <a href="http://www.praxsys.com/"> Parxsys Moblit
+          Systems Pvt Ltd </a>
+        </div>
+      </footer>
+    </div>
+  </div> -->
+
+
+
+</body>
+
+</html>

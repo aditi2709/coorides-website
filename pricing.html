@@ -1,0 +1,468 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+
+
+  <link rel="shortcut icon" type="image/png" href="img/icon/favicon.png">
+  <link rel="stylesheet" href="BeerSlider.css">
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="BeerSlider.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="main.js"></script>
+
+
+
+  <title>Pricing</title>
+</head>
+
+<body>
+  <div class="container-fluide ">
+    <!-- <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo/ic-menu-logo.png" srcset="img/logo/ic-menu-logo@2x.png 2x,img/logo/ic-menu-logo@3x.png 3x">
+        <h4 class="brand-name">COO <span class="font-weight-light"> RIDES </span> </h4>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#station-location">Find our Stations</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#download">Download</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </nav> -->
+
+    <nav class=" navbar navbar-expand-md navbar-light bg-light sticky-top" id="navbar-example2">
+
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo/ic-menu-logo.png" srcset="img/logo/ic-menu-logo@2x.png 2x,img/logo/ic-menu-logo@3x.png 3x">
+                <h4 class="brand-name">COO <span class="font-weight-light"> RIDES </span></h4>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-right">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html#station-location">Find our Station</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html#download">Download</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+
+          </nav>
+
+
+
+
+    <section class=" w-100">
+      <!-- <div class="text-light top-h1 pl-5 pt-10"><span class="f-w">More</span>  About Us</div> -->
+      <div class="d-flex align-items-center">
+        <img src="img/background/h_orange.png" class="img-fluid w-100">
+        <div class="title pl-md-5 pl-2 head">Pricing</div>
+        <!-- <h2 class="d-none d-md-block d-lg-none"><span class="f-w">More</span> About Us</h2> -->
+      </div>
+
+    </section>
+    <div>
+      <div class="text-center para-h1">Charges</div>
+      <!-- <p class="loose-txt text-center f-20 pt-2">Users will have to pay a nominal membership fee of INR 250 per month to gain access to the system. Once registered, the users will be charged as follows:</p> -->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-grey" href="#general">Membership Types</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-grey" href="#normal">Normal Bicycle Usage Charges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-grey" href="#electric">E-Bike Usage Charges</a>
+        </li>
+
+      </ul>
+
+    </div>
+    <section id="general" class="w-100 ">
+      <p class="f-18 text-center pt-5">Membership Type:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover f-18 center">
+          <thead>
+            <tr class="">
+              <th scope="col">Membership Type</th>
+              <th scope="col pl-5">Charge</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1 Day Pass</td>
+              <td>INR 50</td>
+            </tr>
+            <tr>
+              <td>1 Month Pass</td>
+              <td>INR 250</td>
+
+            </tr>
+            <tr>
+              <td>3 Month Pass</td>
+              <td>INR 675</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <section id="normal" class="pt-3 w-100">
+      <p class="f-18 text-center">Normal Bicycle Usage Charges:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered  table-hover f-18 center">
+          <thead>
+            <tr class="">
+              <th scope="col">Bicycle Usage</th>
+              <th scope="col">Charge</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0 - 30 mins</td>
+              <td>Included</td>
+            </tr>
+            <tr>
+              <td>31 mins - 60 mins</td>
+              <td>INR 15</td>
+
+            </tr>
+            <tr>
+              <td>61 mins - 90 mins</td>
+              <td>INR 15</td>
+            </tr>
+
+            <tr>
+              <td>Every additional 30 mins</td>
+              <td>INR 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <section id="electric" class="pt-3 w-100">
+      <p class="f-18 text-center">Electric Bicycle Usage Charges:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover f-18 center">
+          <thead>
+            <tr class="">
+              <th scope="col">E-Bike Usage</th>
+              <th scope="col">Charge</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0 - 15 mins</td>
+              <td>Included</td>
+            </tr>
+            <tr>
+              <td>16 mins - 30 mins</td>
+              <td>INR 15</td>
+
+            </tr>
+            <tr>
+              <td>31 mins - 45 mins</td>
+              <td>INR 15</td>
+            </tr>
+            <tr>
+              <td>46 mins - 60 mins</td>
+              <td>INR 15</td>
+            </tr>
+
+            <tr>
+              <td>Every additional 15 mins</td>
+              <td>INR 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="contact" class="mt-1 w-100">
+
+      <footer class="page-footer font-small bg-footer pt-4 ">
+        <div class="row">
+          <div class="col-md-2 d-none d-md-block">
+            <a class="navbar-brand pt-2 ml-4 pl-1" href="#">
+              <img src="img/icon/512-x-512-bb.png">
+              <p class="brand-name">COO <span class="font-weight-light"> RIDES </span> </p>
+            </a>
+          </div>
+        </div>
+        <div class="container-fluid text-center text-md-left">
+
+          <div class="row">
+
+            <div class="col-md-6 mt-md-0 mt-3 ">
+
+              <h4 class="text-light ml-3 f-24 mt-2 "><span class=" f-w">We would love</span> <span
+                  class="font-weight-bold f-style">to hear from
+                  you!</span></h4>
+              <h4 class="text-light ml-3 f-24 f-style">Join us or let’s have a talk.</h4>
+
+              <div class="row">
+                <div class="col-lg-6 text-md-left text-center">
+
+                  <ul class="list-group ml-3 mt-3">
+
+                    <li class=" d-flex justify-content-center justify-content-md-start">
+                      <span class=" f-16 text-orange addr">support@coorides.in<p>+918448449690 </p>
+                      </span>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-lg-6 text-md-left text-center">
+                  <ul class="list-group ml-3 mt-3">
+                    <li class=" d-flex justify-content-between align-items-center">
+                      <span class="text-orange f-16 addr">1st Floor, Pritham Plaza,No. 18 ,Yellamman Koil Street,
+                        Adj to Gurudwara, Ulsoor, Bengaluru, Karnataka 560008</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-5">
+            <div class="col-md-3 mb-md-0 mb-3 mt-2 footer-list">
+              <h5 class="text-white text-uppercase f-12 mt-4 text-op">General</h5>
+
+              <ul class="list-group f-14 text-orange mt-4">
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="index.html">Home</a>
+                  <span><a href="faq.html" class="f-14 text orange p-r-6">FAQs</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange ">
+                  <a href="about-us.html">About Us</a>
+                  <span><a href="safety-instruction.html" class="f-14 text orange">Safety Instructions</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="pricing.html">Pricing</a>
+                  <span><a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank"
+                      class="f-14 text orange p-r-6">Youtube</a></span>
+                </li>
+                <li class=" d-flex justify-content-between align-items-center text-orange">
+                  <a href="contact.html">Contact Us</a>
+
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 mb-md-0 mb-3 mt-2 footer-list">
+              <h5 class="text-uppercase text-white f-12 mt-4 text-op">Legal</h5>
+
+              <ul class="list-group f-14 text-orange mt-4">
+                <li class=" d-flex align-items-left text-orange">
+                  <a href="privacy-policy.html"> Privacy Policy</a>
+                </li>
+                <li class=" d-flex  align-items-left text-orange">
+                  <a href="terms-condition.html">Terms & Conditions</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-6  mt-2 p-0">
+              <img src="img/background/intro-illustration.png" srcset="img/background/intro-illustration@2x.png 2x,
+               img/background/intro-illustration@3x.png 3x" class="Intro_Illustration rotate-180">
+            </div>
+            <div class="col-md-3  mb-3 mt-2 p-l-none">
+
+              <div class="d-flex d-flex-row mb-3 mt-2">
+
+
+                <div class="col-md-3 ">
+                  <a href="https://www.instagram.com/cooridesin/" target="_blank">
+                    <img src="img/footer/insta@3x.png" srcset="img/footer/insta@2x.png 2x,
+                   img/footer/insta@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+                <div class="col-md-3 ">
+                  <a href="https://www.facebook.com/cooridesin/" target="_blank">
+                    <img src="img/footer/shape@3x.png" srcset="img/footer/shape@2x.png 2x,
+                   img/footer/shape@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="https://www.linkedin.com/company/cooridesin/" target="_blank">
+                    <img src="img/footer/link@3x.png" srcset="img/footer/link@2x.png 2x,
+                     img/footer/link@3x.png 3x" class="footer-icon">
+                  </a>
+                </div>
+                <div class="col-md-3">
+                  <a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank">
+                    <img src="img/footer/youtube.png" class="footer-icon">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="footer-copyright text-center py-3 bg-copyright  f-style text-white">Copyright 2020 © <a href="http://www.praxsys.com/"> Parxsys Moblit
+          Systems Pvt Ltd </a>
+        </div>
+      </footer>
+    </section>
+
+  </div>
+
+
+  <!-- <div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="bg-slate-black modal-dialog menu-full-width" role="document">
+      <nav class="navbar-brand d-flex justify-content-between align-items-center">
+        <a class="navbar-brand pt-2 ml-4" href="#">
+          <img src="img/icon/512-x-512-bb.png">
+          <h4 class="brand-name">COO <span class="font-weight-light"> RIDES </span> </h4>
+        </a>
+        <span class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/icon/menu-close.png" srcset="img/icon/menu-close@2x.png 2x,
+                       img/icon/menu-close@3x.png 3x" class="menu_close"> </span> -->
+
+
+        <!-- <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button> -->
+
+      <!-- </nav>
+      <div class="row">
+        <div class="col-md-4 mt-md-0 mt-3">
+          <ul class="list-group menu-list">
+            <li class="list-group-item"><a href="#station-location" class="menu-p mt-2">Find Station</a></li>
+            <li class="list-group-item"> <a href="#download" class="menu-p m-t-4">Download</a></li>
+            <li class="list-group-item d-md-none"> <a href="about-us.html" class="menu-p  m-t-4 ">About</a>
+            </li>
+            <li class="list-group-item d-md-none"> <a href="#contact" class="menu-p  m-t-4">Contact</a></li> -->
+
+            <!-- <li class="list-group-item"> <a class="menu-p ml-6 m-t-4">Media</a></li> -->
+            <!-- <li class="list-group-item"> <a class="menu-p ml-6 m-t-4">Privacy Policy</a></li> -->
+
+
+          <!-- </ul>
+        </div>
+        <div> -->
+
+          <!-- <div class="d-flex flex-row justify-content-start m-l-1"> -->
+
+
+          <!-- <div class="d-flex flex-row justify-content-center pl-5 ">
+            <div class="mt-10 t-design">“The next big thing in mobility”</div>
+
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <div class="f-14 pl-5">-TIMES Magazine</div>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <img src="img/background/intro-illustration.png" srcset="img/background/intro-illustration@2x.png 2x,
+                         img/background/intro-illustration@3x.png 3x" class="Intro_Illustration">
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="progress-line d-none d-md-block Path-4">
+        <div></div>
+      </div>
+      <footer class="page-footer">
+
+
+        <div class="row">
+
+
+          <div class="col-md-12">
+            <div class="d-flex d-flex-row justify-content-center p-b-2 p-t-2">
+
+              <span class="">
+                <a href="https://www.instagram.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-instagram.png" srcset="img/footer/menu-instagram@2x.png 2x,
+                            img/footer/menu-instagram@3x.png 3x" class="menu_icon">
+                </a>
+              </span>
+              <span class="icon-pl-1">
+                <a href="https://www.facebook.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-facebook.png" srcset="img/footer/menu-facebook@2x.png 2x,
+                              img/footer/menu-facebook@3x.png 3x" class="menu_icon"></a>
+              </span>
+
+              <span class="icon-pl-1">
+                <a href="https://www.linkedin.com/cooridesin/" target="_blank">
+                  <img src="img/footer/menu-linkedin.png" srcset="img/footer/menu-linkedin@2x.png 2x,
+                              img/footer/menu-linkedin@3x.png 3x" class="menu_icon"></a>
+              </span>
+              <span class="icon-pl-1">
+                <a href="https://www.youtube.com/channel/UCT6XPbAk4Dg_W0tmQJNVLdw" target="_blank">
+                  <img src="img/footer/utube.png" class="menu_icon"></a>
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="footer-copyright text-center py-3 bg-copyright  f-style text-white">Copyright 2019 © Parxsys Moblit
+          Systems Pvt Ltd
+        </div>
+      </footer>
+    </div>
+  </div> -->
+
+
+</body>
+
+</html>

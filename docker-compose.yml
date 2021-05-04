@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web-server:
+    build: .
+    image: cooride/website
+    container_name: cooride_website
+    ports:
+      - "80:80"
+    volumes:
+      - .:/usr/share/nginx/html
